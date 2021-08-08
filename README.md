@@ -28,5 +28,11 @@ Również co 15 sekund program wypisuję na standardowe wyjście obecną tablic�
 
 Pomiędzy tymi akcjami, przez 15 sekund, program odczytuje komunikaty od innych instancji tego programu uruchomionych na komputerach połączonych sieciami z naszym komputerem i aktualizuje wektor odległości. Program nasłuchuję i wysyła komunikaty na port 54321.
 
+### Obsługa
 
+Projekt zawiera Makfile. Wykonując polecenie `make` możemy skompilować program.
+Polecenie `make clean` czyści katalog z plików pośrednich. 
+Polecenie `make distclean` czyści katalog z plików pośrednich oraz pliku wykonywalnego.
+
+Po kompilacji program można uruchomić poleceniem `./router` i przekazać mu na standardowe wejście konfigurację sieciową komputera wraz z odległościami do sieci.
 
